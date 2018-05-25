@@ -1,0 +1,27 @@
+{
+  "name": "reactblog",
+  "version": "0.1.0",
+  "description": "Basic blogging platform built in React",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacLessard/ReactBlog.git"
+  },
+  "author": "Isaac Lessard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IsaacLessard/ReactBlog/issues"
+  },
+  "homepage": "https://github.com/IsaacLessard/ReactBlog#readme",
+  "dependencies": {
+    "json-server": "^0.12.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "^1.1.4"
+  }
+}
