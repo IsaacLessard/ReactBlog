@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 
+import NavBar from './NavBar';
+import Content from './Content'
+
 class Home extends Component {
 
   render() {
+    var mainStyle = {
+      fontFamily: "'Sunflower', sans-serif"
+    }
+
     return (
-      <div>
-        <h2>Testing</h2>
+      <div style={mainStyle}>
+        <NavBar/>
+        <Content/>
       </div>
     )
   }
